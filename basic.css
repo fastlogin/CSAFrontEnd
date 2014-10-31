@@ -377,14 +377,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #events{
+
 	margin-top: 10px;
+	margin-bottom: 10px;
 	font-family: Titillium Web;
 	font-weight: 700;
 	font-size: 75px;
 	color: rgb(70,70,70);
 	text-shadow: 0px 3px 4px rgba(200, 200, 200, 1);
-	background-color: rgb(240,240,240);
-	margin-bottom: 5px;
+	background-color: rgb(240,240,240)
+
+
 
 }
 
@@ -397,6 +400,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	border-radius: 15px;
 	border: 5px solid white;
 	overflow: hidden;
+}
+
+.event .glyphicon:hover{
+	color: rgb(220,85,120);
 }
 
 .eventinfo{
@@ -420,12 +427,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .eventtext{
-		font-family: Raleway;
+	font-family: Raleway;
 	font-weight: 700;
 	color: rgba(255,255,255,0.9);
 	font-size: 48px;
-		text-shadow: 0px 5px 4px rgba(0, 0, 0, 1);
-	position: relative;
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 1);
+  position: relative;
   top: 15%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -470,9 +477,116 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
+#socialhead{
+	height: 300px;
+	background-image: url('social.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.eventcontent{
+	min-height: 600px;
+	display: none;
+}
+
+.eventconttext{
+	border: 4px solid rgb(230,230,230);
+	background-color: rgb(245,245,245);
+	height: 600px;
+}
+
+
+.eventtexthead{
+	background-color: white;
+	margin-top: 10px;
+	font-family: Titillium Web;
+	font-weight: 700;
+	font-size: 75px;
+	color: rgb(70,70,70);
+	text-shadow: 0px 3px 4px rgba(200, 200, 200, 1);
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+.condition-passed{
+	font-family: Varela Round;
+	font-size: 36px;
+	color: rgb(220,85,120);
+	text-shadow: none;
+	margin-top: 0px;
+}
+
+.condition-up{
+	font-family: Varela Round;
+	font-size: 36px;
+	color: rgb(40,180,80);
+	text-shadow: none;
+	margin-top: 0px;
+}
+
+.eventtextcont{
+	padding: 20px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Open Sans;
+}
+
+.eventtexticos{
+	position: absolute;
+	bottom: 0;
+ 	width: 95%;
+}
+
+.eventtexticos .glyphicon:hover{
+	color: rgb(220,85,120);
+}
+
+
+.eventimg{
+	background: rgb(247,247,247); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,247,247,1) 2%, rgba(237,237,237,1) 64%, rgba(226,226,226,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(247,247,247,1)), color-stop(64%,rgba(237,237,237,1)), color-stop(100%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 2%,rgba(237,237,237,1) 64%,rgba(226,226,226,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(247,247,247,1) 2%,rgba(237,237,237,1) 64%,rgba(226,226,226,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(247,247,247,1) 2%,rgba(237,237,237,1) 64%,rgba(226,226,226,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(247,247,247,1) 2%,rgba(237,237,237,1) 64%,rgba(226,226,226,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+
+	padding: 25px;
+	height: 600px;
+}
+
+
+.eventimg img{
+	max-width: 100%;
+	max-height: 100%;
+	box-shadow: 7px 7px 10px 5px rgb(180,180,180);
+
+}
+
+.eventimg span{
+	color: rgb(180,180,180);
+	font-size: 50px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.eventimg span:hover{
+	color: rgb(220,85,120);
+}
+
+#maff{
+	max-width: 600px;
+}
+
+#blaze{
+	width: 100%;
+	height: 1000px;
+}
+
 @media(max-width: 1200px){
 	#abouttexttitle{
-
 	text-align: center;
 }
 
@@ -524,6 +638,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	border-bottom-color: rgb(110,145,185);
 }
 
+.eventimg span{
+display: none;
+}
+
+
+.eventtexthead{
+	font-size: 40px;
+}
+
+.condition-passed{
+	font-size: 25px;
+}
+
+.condition-up{
+	font-size: 25px;
+}
+
 }
 
 @media(max-width: 767px){
@@ -557,7 +688,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
-
+.eventtexticos{
+	display: none;
+}
 
 
 

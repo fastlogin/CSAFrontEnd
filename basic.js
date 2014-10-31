@@ -115,3 +115,92 @@ $(document).ready(function(){
    })
     /********************************************/
 
+    $(document).ready(function(){
+      $('#socialscr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#socialwin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#socialclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#socialwin').slideToggle(500);
+      })
+    })
+
+        $(document).ready(function(){
+      $('#mndsscr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#mndswin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#mndsclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#mndswin').slideToggle(500);
+      })
+    })
+
+
+    $(document).ready(function(){
+      $('#mafscr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#mafwin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#mafclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#mafwin').slideToggle(500);
+      })
+    })
+
+
+    $(document).ready(function(){
+      $('#semiscr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#semiwin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#semiclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#semiwin').slideToggle(500);
+      })
+    })
+
+
+    $(document).ready(function(){
+      $('#chinascr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#chinawin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#chinaclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#chinawin').slideToggle(500);
+      })
+    })
+
+
+    $(document).ready(function(){
+      $('#gscr').click(function(){
+        $('.eventsmain').slideToggle(500);
+        $('#gwin').slideToggle(1500);
+      })
+    })
+
+    $(document).ready(function(){
+      $('#gclose').click(function(){
+        $('.eventsmain').slideToggle(1500);
+        $('#gwin').slideToggle(500);
+      })
+    })
+
+
