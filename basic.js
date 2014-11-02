@@ -57,11 +57,13 @@ $(document).ready(function(){
     $('#icons').stop(true,false).animate({
       opacity: 1.0
     },300)
+
    }
    else{
     $('#icons').stop(true,false).animate({
       opacity: 0.0
     },300)
+
    }
    },250))
   /********************************************/
@@ -125,7 +127,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#socialclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#socialwin').slideToggle(500);
+        $('#socialwin').fadeToggle(500);
       })
     })
 
@@ -139,7 +141,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#mndsclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#mndswin').slideToggle(500);
+        $('#mndswin').fadeToggle(500);
       })
     })
 
@@ -154,7 +156,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#mafclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#mafwin').slideToggle(500);
+        $('#mafwin').fadeToggle(500);
       })
     })
 
@@ -169,7 +171,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#semiclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#semiwin').slideToggle(500);
+        $('#semiwin').fadeToggle(500);
       })
     })
 
@@ -184,7 +186,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#chinaclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#chinawin').slideToggle(500);
+        $('#chinawin').fadeToggle(500);
       })
     })
 
@@ -199,8 +201,46 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('#gclose').click(function(){
         $('.eventsmain').slideToggle(1500);
-        $('#gwin').slideToggle(500);
+        $('#gwin').fadeToggle(500);
+      })
+    })
+
+/*************Insert Function Name*************/
+$(document).ready(function(){
+        $('.navbar-nav li').click(function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+})
+
+  $(document).ready(function(){
+    $('#abou').click(function(){
+      $('body').scrollTo('#abouthead',{duration:800,offset:-50});
+      })
+    })
+
+    $(document).ready(function(){
+    $('#fam').click(function(){
+      $('body').scrollTo('#familyhead',{duration:800,offset:-50});
+      })
+    })
+
+    $(document).ready(function(){
+    $('#eve').click(function(){
+      $('body').scrollTo('#events',{duration:800,offset:-50});
+      })
+    })
+
+        $(document).ready(function(){
+    $('#con').click(function(){
+      $('body').scrollTo('#contactend',{duration:800,offset:-50});
+      })
+    })
+
+            $(document).ready(function(){
+    $('#hom').click(function(){
+      $('body').scrollTo(0,{duration:800});
       })
     })
 
 
+ /********************************************/

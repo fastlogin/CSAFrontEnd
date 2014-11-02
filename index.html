@@ -22,7 +22,21 @@
 
 </head>
 <body>
-
+<script type="text/javascript">
+addthisevent.settings({
+    license   : "aao8iuet5zp9iqw5sm9z",
+    mouse     : false,
+    css       : false,
+    outlook   : {show:true, text:"Outlook Calendar"},
+    google    : {show:true, text:"Google Calendar"},
+    yahoo     : {show:true, text:"Yahoo Calendar"},
+    hotmail   : {show:true, text:"Hotmail Calendar"},
+    ical      : {show:true, text:"iCal Calendar"},
+    facebook  : {show:true, text:"Facebook Event"},
+    dropdown  : {order:"outlook,google,ical"},
+    callback  : ""
+});
+</script>
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
   <div class="container-fluid">
@@ -39,12 +53,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Family</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">E-Board</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a id='hom' href="#">Home</a></li>
+        <li><a id='abou' href="#">About</a></li>
+        <li><a id='fam' href="#">Family</a></li>
+        <li><a id='eve' href="#">Events</a></li>
+        <li><a id='con' href="#">Contact</a></li>
         <li id ='icons'><span class='st_facebook_large' displayText='Facebook'></span>
 <span class='st_twitter_large' displayText='Tweet'></span>
 <span class='st_linkedin_large' displayText='LinkedIn'></span>
@@ -408,25 +421,25 @@
 
     <div id ='social' class='col-md-3 event'>
         <span class ='eventtext'>Social Week</span>
-        <div class='eventinfo'><a id='socialscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+        <div class='eventinfo'><a id='socialscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
           </div>
     </div>
 
         <div id='mnds' class='col-md-3 event'>
             <span class ='eventtext'>Midnight Dimsum</span>
-        <div class='eventinfo'><a id='mndsscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+        <div class='eventinfo'><a id='mndsscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
           </div>
     </div>
 
         <div id='maf' class='col-md-3 event'>
            <span class ='eventtext'> Mid Autumn Festival</span>
-             <div class='eventinfo'><a id='mafscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+             <div class='eventinfo'><a id='mafscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
           </div>
     </div>
 
         <div id='semi' class='col-md-3 event'>
             <span class ='eventtext'>Semiformal</span>
-        <div class='eventinfo'><a id='semiscr'href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+        <div class='eventinfo'><a id='semiscr'href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
           </div>
     </div>
 
@@ -436,13 +449,13 @@
 <div id='eventscont2' class='row row-centered eventsmain'>
         <div id='china' class='col-md-3 event'>
            <span class ='eventtext'> China Night</span>
-        <div class='eventinfo'><a id='chinascr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+        <div class='eventinfo'><a id='chinascr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
           </div>
     </div>
 
     <div id='gbody' class='col-md-3 event'>
        <span class ='eventtext'> GBody Meetings</span>
-        <div class='eventinfo'><a id='gscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-list-alt eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+        <div class='eventinfo'><a id='gscr' href='javascript:;'><span class="glyphicon glyphicon-fullscreen"></span></a>
         </div>
 </div>
 
@@ -466,7 +479,12 @@
             At the beginning of the year CSA always welcomes the incoming freshman class with our first general body meeting of the year and follows it up with a suite of social events throughout the week. This provides a great opportunity for students who are interested in Chinese culture to come out, interact with each other, and see if CSA is a right fit for them. So if you're interested in Chinese culture, finding a family, meeting lots of new people, or eating food?? Come out to Chinese Students' Associations first GBody Meeting and Social Week! And no, you don't have to be Chinese.Then come out to our FREE social events where bigs and littles can mingle and find their perfect family! 
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+           <a id='fbsocialhov' href='https://www.facebook.com/events/1483752148542496/' target='_blank'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+           <span class ='slideout'>Facebook</span>
+           <a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a>
+           <span class ='slideout'>Album</span>
+           <a href='https://www.google.com/maps/place/Goldwin+Smith+Hall/@42.449098,-76.483508,17z/data=!3m1!4b1!4m2!3m1!1s0x89d0818a12d45b8f:0xc7955445a8395783' target='_blank'><span class="glyphicon glyphicon-flag eicon"></span></a>
+           <span class ='slideout'>Location</span>
         </div>
     </div>
 
@@ -488,7 +506,12 @@
             In the beginning months of school CSA always puts together its resources and brings a night of deliciousness and fun to the Cornell campus. We pick a large venue and gather up some of the best Chinese dimsum food and performances we can find around campus. The best part is that it's all free! So if you're interested in a night of free food and fun come join CSA for Midnight Dimsum!
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <a href='https://www.facebook.com/events/288269178033927/' target='_blank'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+            <span class ='slideout'>Facebook</span>
+            <a href='https://www.facebook.com/media/set/?set=a.375846159230956.1073741837.133383036810604&type=3' target='_blank'><span class="glyphicon glyphicon-picture eicon"></span></a>
+            <span class ='slideout'>Album</span>
+            <a href='https://www.google.com/maps/place/Willard+Straight+Hall/@42.446592,-76.485676,17z/data=!3m1!4b1!4m2!3m1!1s0x89d0818966dd858d:0xdb77107b9b211095' target='_blank'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <span class ='slideout'>Location</span>
         </div>
     </div>
 
@@ -511,7 +534,12 @@
             Join us for the 5th annual Mid-Autumn Festival hosted by Cornell Chinese Students Association (CSA)! Kickoff Homecoming with a bang with performances by Illuminations, Wushu, Shimtah, Yamatai, Breakfree and more! FREE Asian cuisine (including mooncakes), games, and potential giveaways await you! Learn what makes this multinational holiday special as we celebrate the night of the fullest moon. This event is family-friendly and open to all students and alumni. We thank our funding sources CUTonight, Cornell Asian Alumni Association, the Asian and Asian American Center, ALANA Intercultural Board, International Students Board and the Student Assembly Finance Commission for their generous support of our event. 
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <a href='https://www.facebook.com/events/1553209048234529/' target='_blank'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+            <span class ='slideout'>Facebook</span>
+            <a href='https://www.facebook.com/media/set/?set=a.393164470832458.1073741840.133383036810604&type=3' target='_blank'><span class="glyphicon glyphicon-picture eicon"></span></a>
+            <span class ='slideout'>Album</span>
+            <a href='https://www.google.com/maps/place/Ho+Plaza,+Cornell+University,+Ithaca,+NY/@42.4467057,-76.4850658,17z/data=!3m1!4b1!4m2!3m1!1s0x89d0818bde205a97:0xc84bbe029d213abc' target='_blank'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <span class ='slideout'>Location</span>
         </div>
     </div>
 
@@ -533,7 +561,12 @@
             At the beginning of the year CSA always welcomes the incoming freshman class with our first general body meeting of the year and follows it up with a suite of social events throughout the week. This provides a great opportunity for students who are interested in Chinese culture to come out, interact with each other, and see if CSA is a right fit for them. So if you're interested in Chinese culture, finding a family, meeting lots of new people, or eating food?? Come out to Chinese Students' Associations first GBody Meeting and Social Week! And no, you don't have to be Chinese.Then come out to our FREE social events where bigs and littles can mingle and find their perfect family! 
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+            <span class ='slideout'>Facebook</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a>
+            <span class ='slideout'>Album</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <span class ='slideout'>Location</span>
         </div>
     </div>
 
@@ -555,7 +588,12 @@
             At the beginning of the year CSA always welcomes the incoming freshman class with our first general body meeting of the year and follows it up with a suite of social events throughout the week. This provides a great opportunity for students who are interested in Chinese culture to come out, interact with each other, and see if CSA is a right fit for them. So if you're interested in Chinese culture, finding a family, meeting lots of new people, or eating food?? Come out to Chinese Students' Associations first GBody Meeting and Social Week! And no, you don't have to be Chinese.Then come out to our FREE social events where bigs and littles can mingle and find their perfect family! 
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+            <span class ='slideout'>Facebook</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a>
+            <span class ='slideout'>Album</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <span class ='slideout'>Location</span>
         </div>
     </div>
 
@@ -577,14 +615,36 @@
             At the beginning of the year CSA always welcomes the incoming freshman class with our first general body meeting of the year and follows it up with a suite of social events throughout the week. This provides a great opportunity for students who are interested in Chinese culture to come out, interact with each other, and see if CSA is a right fit for them. So if you're interested in Chinese culture, finding a family, meeting lots of new people, or eating food?? Come out to Chinese Students' Associations first GBody Meeting and Social Week! And no, you don't have to be Chinese.Then come out to our FREE social events where bigs and littles can mingle and find their perfect family! 
         </div>
         <div class='eventtexticos'>
-            <a href='javascript:;'><span class="glyphicon glyphicon-list-alt"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a><a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+             <a href='javascript:;'><span class="glyphicon glyphicon-thumbs-up eicon"></span></a>
+            <span class ='slideout'>Facebook</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-picture eicon"></span></a>
+            <span class ='slideout'>Album</span>
+            <a href='javascript:;'><span class="glyphicon glyphicon-flag eicon"></span></a>
+            <span class ='slideout'>Location</span>
         </div>
     </div>
 
 </div>
 
 
-<div id='blaze'>
+<div id='contactdivider' class='row row-centered'>
+</div>
+
+<div id='contactend' class='row row-centered'>
+
+<div id='contact1' class='col-md-3 col-centered'>
+    <p id='contactus'>Contact Us<p>
+    <p>Cornell Chinese Students Association Est. 1904</p>
+    <p>Cornell University, Ithaca, NY, 14850</p> 
+    <p><a href='mailto:cornellcsa@gamil.com'>Cornellcsa@gmail.com</a></p>
+    <p><a href='https://www.facebook.com/CornellCSA' target="_blank">Facebook</a></p>
+</div>
+<div id='contact2' class='col-md-3 col-centered'>
+
+<img  src='cornell.png' class="img-responsive" alt="Responsive image" height='140' width='140'>
+
+</div>
+
 </div>
 
 
