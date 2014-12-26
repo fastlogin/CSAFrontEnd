@@ -3,7 +3,6 @@
 $(document).ready(function(){
   if($(window).width() > 768){
            $(window).stellar();
-          $('#head1').stellar();
           $('#familyhead').stellar();
         }
 })
@@ -57,34 +56,23 @@ $(document).ready(function(){
     $('#icons').stop(true,false).animate({
       opacity: 1.0
     },300)
+     $('#navborder').stop(true,false).animate({
+      opacity: 1.0
+    },300)
 
    }
    else{
     $('#icons').stop(true,false).animate({
       opacity: 0.0
     },300)
-
+    $('#navborder').stop(true,false).animate({
+      opacity: 0.0
+    },300)
    }
    },250))
   /********************************************/
 
-  /*************Cheesy Fam Click*************/
 
-$(document).ready(function(){
-  var notclicked = true;
-  $('#famclick').click(function(){
-    if(notclicked){
-    $('#famclick').textillate({ loop: true, in:{effect:'bounceInUp'} , out:{effect:'hinge'}});
-    notclicked = false;
-  }
-  else{
-    $('#famclick').textillate({ loop: false });
-    notclicked = true;
-  }
-  })
-})
-
-   /********************************************/
 
    /*************Insert Function Name*************/
    $(document).ready(function(){

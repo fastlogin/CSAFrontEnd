@@ -104,8 +104,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	color: white;
-	background-color: rgb(130,15,35);
+    background-color: rgb(220,85,120);
 }
+
 
 #main1{
 	margin: 0;
@@ -120,25 +121,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #head1text{
-	margin-top: 50px;
 	display: table-cell;
 	vertical-align: middle;
 	color: white;
 	font-size: 55px;
 	font-family: Raleway;
-	font-weight: 700;
-	color: white;
-	text-shadow: 0px 3px 4px rgba(0, 0, 0, 1);
+	font-weight: 200;
+	color: rgb(70,70,70);
+	background-color: rgba(255,255,220,0.6);
 }
 
 .headtext{
-	opacity: 0.8;
 }
 
 
 #chinese{
 	font-family: "細明體", Arial, Helvetica, sans-serif;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 #share{
@@ -147,13 +146,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #abouthead{
 	margin-top: 20px;
-	font-family: Titillium Web;
-	font-weight: 700;
-	font-size: 75px;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 65px;
 	color: rgb(70,70,70);
-	text-shadow: 0px 3px 4px rgba(200, 200, 200, 1);
-	background-color: rgb(240,240,240)
-
 }
 
 #about{
@@ -174,14 +170,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #abouttexttitle{
-	font-size: 26px;
-	font-weight: 700;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: 200;
 	text-align: left;
 }
 
 #abouttexttitlechin{
 	font-family: "細明體", sans-serif;
-	font-weight: 700;
+	font-weight: 200;
 	color: rgb(220,85,120);
 	font-size: 40px;
 	text-align: left;
@@ -208,27 +205,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background-color: rgb(230,230,230);
 }
 
+#famhead{
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 65px;
+	color: white;
+}
 
-#familyhead{
-	height: 300px;
-	background-image: url('family.png');
+#fambody{
+	background-image: url('family.jpg');
 	background-size: cover;
 }
 
-#familyheadtext{
-	margin-top: 50px;
-	vertical-align: middle;
-	color: white;
-	font-size: 125px;
-	font-family: Gloria Hallelujah;
-	font-weight: 700;
-	color: white;
-	text-shadow: 0px 5px 4px rgba(0, 0, 0, 1);
+#fambody img{
+	padding: 30px;
+}
+/*#familyhead{
+	height: 250px;
+	background-image: url('family.jpg');
+	background-size: cover;
+	display: table;
 }
 
-#famclick:hover{
-	text-shadow: 0px 5px 4px rgba(220, 85, 120, 1);
+#familyheadtext{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 65px;
+	font-family: Raleway;
+	font-weight: 200;
+	color: white;
 }
+
 
 .divider2{
 	background-color: white;
@@ -375,18 +383,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-weight: 700;
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 	display: none;
+}*/
+
+#randomdiv{
+	margin-top: 10px;
+	height: 50px;
+	background-color: white;
 }
 
 #events{
 
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-family: Titillium Web;
-	font-weight: 700;
-	font-size: 75px;
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 65px;
 	color: rgb(70,70,70);
-	text-shadow: 0px 3px 4px rgba(200, 200, 200, 1);
-	background-color: rgb(240,240,240)
 
 }
 
@@ -405,7 +417,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background-color: rgb(230,230,230);
 	border-radius: 15px;
 	padding: 10px;
-	box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.4);
 }
 
 .event .glyphicon:hover{
@@ -429,10 +440,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .eventtext{
 	font-family: Raleway;
-	font-weight: 700;
-	color: rgba(255,255,255,0.9);
+	font-weight: 200;
+	color: white;
 	font-size: 48px;
-  text-shadow: 0px 5px 4px rgba(0, 0, 0, 1);
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
   position: relative;
   top: 15%;
   transform: translateY(-50%);
