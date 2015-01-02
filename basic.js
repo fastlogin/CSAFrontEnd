@@ -131,16 +131,16 @@ $(document).ready(function(){
 
     $('#yfbutton').click(function(){
       $('.fambutton').slideToggle(500);  
-      $('#famcont2').delay(600).slideToggle(500);  
+      $('#famcont3').delay(600).slideToggle(500);  
       $('#famback').fadeToggle(800);
-      yellow = true;
+      dumpling = true;
     })
 
     $('#dumpbutton').click(function(){
       $('.fambutton').slideToggle(500);  
-      $('#famcont3').delay(600).slideToggle(500);  
+      $('#famcont2').delay(600).slideToggle(500);  
       $('#famback').fadeToggle(800);
-      dumpling = true;
+      yellow = true;
     })
 
     $('#wantonbutton').click(function(){
