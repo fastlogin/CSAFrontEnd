@@ -206,6 +206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #famhead{
+	margin-top: 20px;
 	font-family: Raleway;
 	font-weight: 200;
 	font-size: 65px;
@@ -215,40 +216,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #fambody{
 	background-image: url('family.jpg');
 	background-size: cover;
+	background-position: 0px -650px;
+}
+
+.fambuttontext{
+	font-family: Raleway;
+	font-size: 24px;
+	color: white;
+/*	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;*/
+	padding: 10px;
+
+}
+
+#famback{
+	font-size: 42px;
+	display: none;
+}
+
+#famback:hover{
+	opacity: 0.6;
 }
 
 #fambody img{
-	padding: 30px;
-}
-/*#familyhead{
-	height: 250px;
-	background-image: url('family.jpg');
-	background-size: cover;
-	display: table;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 60px;
+	padding-top: 20px;
 }
 
-#familyheadtext{
-	display: table-cell;
-	vertical-align: middle;
-	color: white;
-	font-size: 65px;
-	font-family: Raleway;
-	font-weight: 200;
-	color: white;
+#fambody img:hover{
+	opacity: 0.8;
 }
 
-
-.divider2{
-	background-color: white;
-	height: 8px;
-}
-
-.famhead{
-	height: 150px;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .famcont{
 	display: none;
@@ -260,13 +260,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .up{
 	font-size: 16px;
 	font-family: Open Sans;
-	color: rgb(70,70,70);
+	color: white;
 	text-align: center;
 	height: 250px;
 	padding: 10px;
 }
 
-.juicebord{
+/*.juicebord{
 	border-right: 3px solid;
 	border-right-color: rgb(180,130,175);
 }
@@ -279,49 +279,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .juicedown{
 	background-color: rgb(255,205,250);
 }
-
-.dumpbord{
-	border-right: 3px solid;
-	border-right-color: rgb(210,190,130);
-}
-
-
-.dumpup{
-	background-color: rgb(250,230,170);
-}
-
-
-.dumpdown{
-	background-color: rgb(255,245,155);
-}
-
-.yellowbord{
-	border-right: 3px solid;
-	border-right-color: rgb(190,190,190);
-}
-
-.yellowup{
-	background-color: rgb(230,230,230);
-}
-
-
-.yellowdown{
-	background-color: rgb(245,245,245);
-}
-
-.wanbord{
-	border-right: 3px solid;
-	border-right-color: rgb(110,145,185);
-}
-
-.wantonup{
-	background-color: rgb(150,195,225);
-}
-
-.wantondown{
-	background-color: rgb(180,225,255);
-}
-
+*/
 .lead{
 	font-size: 16px;
 	font-family: Raleway;
@@ -383,12 +341,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-weight: 700;
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 	display: none;
-}*/
-
-#randomdiv{
-	margin-top: 10px;
-	height: 50px;
-	background-color: white;
 }
 
 #events{
